@@ -9,18 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@tabler/icons-react": "^3.5.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.10",
+    "next": "14.2.4",
+    "oz": "^5.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "solc": "^0.8.26",
+    "tailwind-merge": "^2.3.0",
+    "web3": "^4.9.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@types/node": "^20.14.2",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/web3": "^1.2.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "typescript": "^5"
   }
 }
